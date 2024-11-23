@@ -1,0 +1,16 @@
+instalar librerias
+seguir los pasos
+
+1. # Crear package.json
+npm init -y
+
+2. # Instalar Bootstrap y Font Awesome
+npm install bootstrap@5.3.0 @fortawesome/fontawesome-free
+
+3. # Copiar Bootstrap
+cp node_modules/bootstrap/dist/css/bootstrap.min.css vendor/bootstrap/css/
+cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js vendor/bootstrap/js/
+
+4. # Copiar Font Awesome
+cp node_modules/@fortawesome/fontawesome-free/css/all.min.css vendor/fontawesome/css/
+cp -r node_modules/@fortawesome/fontawesome-free/webfonts/* vendor/fontawesome/webfonts/
